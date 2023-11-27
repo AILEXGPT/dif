@@ -37,7 +37,7 @@
   --card-border-rgb: 200, 200, 200;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -64,7 +64,7 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -93,24 +93,24 @@ a {
   text-decoration: none;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-} */
+}
 
 /* CSS Utils */
 .h1 {
   padding-bottom: 1.5rem;
   line-height: 1.5;
   font-size: 1.125rem;
-  color: #111928;
+  color: #FFFFFF; /* Helle Farbe für dunklen Hintergrund */
 }
 
 .h2 {
   font-size: 14px;
   font-weight: 500;
-  color: #111928;
+  color: #FFFFFF; /* Helle Farbe für dunklen Hintergrund */
   line-height: 1.5;
 }
 
@@ -125,3 +125,4 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+
